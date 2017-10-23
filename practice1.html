@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="C:\Users\hp\Desktop\practice\angular.min.js"></script>
+        <script src="C:\Users\hp\Desktop\practice\practice2.js"></script>
+    </head>
+    <body ng-app>
+        <div>
+            10 + 20 = {{10+20}} 
+        </div>
+        <div>
+                {{1 == 2}}
+        </div>
+        <div>
+                {{1 == 1}}
+        </div>
+        <div>
+            {{{name:'venky',age:21}.name}}
+        </div>
+        <div>
+                {{{name:'venky',age:21}.age}}
+        </div>
+        <div>
+            {{ ['venky','venkatesh','venkat'][2] }}
+        </div>
+        <div ng-controller="myController">
+                {{message}}
+            </div>
+    </body>
+</html>
